@@ -1,0 +1,16 @@
+ul.drag-container {
+  list-style: none;
+}
+
+.drag-item {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 4px;
+  border-radius: 4px;
+  transition: all 0.3s linear;
+  line-height: 5em;
+}
+
+.dragging {
+  opacity: .5;
+}

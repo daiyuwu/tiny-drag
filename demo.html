@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo TinyDrag</title>
+  <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="tiny-drag.css">
+</head>
+
+<body>
+  <div id="title">Demo TinyDrag</div>
+  <div id="drag-drop-basic">
+    <div class="drag-container">
+      <div class="drag-item">One</div>
+      <div class="drag-item">Two</div>
+      <div class="drag-item">Three</div>
+      <div class="drag-item">Four</div>
+      <div class="drag-item">Five</div>
+      <div class="drag-item">Six</div>
+    </div>
+    <div class="drag-container">
+    </div>
+  </div>
+  <br /><br />
+  <div id="container-bar" class="drag-container">
+    <div class="bar-title">A container bar</div>
+  </div>
+
+  <script src="tiny-drag.js"></script>
+  <script>
+    tinyDrag({
+      containerClass: 'drag-container',
+      itemClass: 'drag-item'
+    })
+  </script>
+</body>
+
+</html>
